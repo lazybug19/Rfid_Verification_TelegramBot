@@ -1,6 +1,7 @@
  <h3> Radio Frequency Identification based patient report generating system </h3>
  
- <h6> RFID sensor based verification system for patients in healthcare systems and sending their earlier health reports or health/vaccination status to doctors via IoT (Telegram notification via Telegram bot)
+ <h6> RFID sensor based verification system for patients in healthcare systems and sending their earlier health reports or health/vaccination status to doctors via IoT (Telegram notification via Telegram bot). <br>
+	
 
 Components involved:
 
