@@ -4,10 +4,10 @@
 #include <TelegramBot.h>
 #include <LedControl.h>
 
-/*int DIN=7;
+int DIN=7;
 int CS=6;
 int CLK=5;
-LedControl lc = LedControl(DIN,CLK,CS,0);*/
+LedControl lc = LedControl(DIN,CLK,CS,0);
 #define SS_PIN 10
 #define RST_PIN 9
 MFRC522 mfrc522(SS_PIN, RST_PIN);   // MFRC522 instance.
@@ -25,9 +25,9 @@ void setup() {
 
   Serial.begin(9600);
 
- /* lc.shutdown(0,false);
+  lc.shutdown(0,false);
   lc.setIntensity(0,15);
-  lc.clearDisplay(0);*/
+  lc.clearDisplay(0);
   
   Serial.print("Waiting for WiFi connection");
   while (WiFi.begin(ssid, pass) != WL_CONNECTED) {
@@ -45,10 +45,10 @@ void setup() {
 
 void loop() {
 
-  //bot.sendMessage(m.chat_id, "Yo");
+  bot.sendMessage(m.chat_id, "Yo");
 
 
-  /*//Dot Matrix
+  //Dot Matrix
   byte smile[8]=   {0x3C,0x42,0xA5,0x81,0xA5,0x99,0x42,0x3C};
   byte neutral[8]= {0x3C,0x42,0xA5,0x81,0xBD,0x81,0x42,0x3C};
   byte sad[8]=   {0x3C,0x42,0xA5,0x81,0x99,0xA5,0x42,0x3C};
@@ -120,5 +120,5 @@ void loop() {
   {
     lc.setRow(0,i,character[i]);
   }
-}*/
+}
 }
