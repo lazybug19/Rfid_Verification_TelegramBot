@@ -2,7 +2,7 @@
  
 RFID sensor based verification system for patients in healthcare systems and sending their earlier health reports or health/vaccination status to doctors via IoT (Telegram notification via Telegram bot). <br>
 	
-Components involved:
+> Components involved:
 
 - RFID Tag : Integrated circuit with a unique radio frequency identification key whose signal is detected by the RFID Reader; input voltage:3.3V (not 5V); response range: close contact-50mm; communicates with microcontroller via serial peripheral interface (SPI) communication protocol
 
