@@ -2,14 +2,13 @@
  
  <h6> RFID sensor based verification system for patients in healthcare systems and sending their earlier health reports or health/vaccination status to doctors via IoT (Telegram notification via Telegram bot). <br>
 	
-
 Components involved:
 
 1. RFID Tag : Integrated circuit with a unique radio frequency identification key whose signal is detected by the RFID Reader; input voltage:3.3V (not 5V); response range: close contact-50mm; communicates with microcontroller via serial peripheral interface (SPI) communication protocol
 
 	RFID-RC522 Pins:
 
-	PowerInput-Reset(power down ard.) -> Ground -> Interrupt(not 	connected; used to wake up arduino when rfid tag is present) -> SPI 	      Communication (MOSI+MISO) -> SerialClock -> SDA(I2C comm)
+	PowerInput-Reset(power down ard.) -> Ground -> Interrupt(not 	connected; used to wake up arduino when rfid tag is present) -> SPI 	         Communication (MOSI+MISO) -> SerialClock -> SDA(I2C comm)
 
 2. RFID Reader : Scans/Reads ID from RFID tag via radio wave data transmission from the tag to reader
 
