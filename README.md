@@ -10,7 +10,7 @@ Components involved:
 
 	PowerInput-Reset(power down ard.) -> Ground -> Interrupt(not 	connected; used to wake up arduino when rfid tag is present) -> SPI 	         Communication (MOSI+MISO) -> SerialClock -> SDA(I2C comm)
 
-2. RFID Reader : Scans/Reads ID from RFID tag via radio wave data transmission from the tag to reader
+2. RFID Reader : Scans/Reads ID from RFID tag via radio waves data transmission from the tag to reader
 
 3. Dot Matrix : Programmed to generate figures like happy face and sad face for acceptance or rejection of ID card respectively.
 
