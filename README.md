@@ -1,1 +1,2 @@
-# Rfid-based-report-Notifier
+Radio Frequency Identification based patient report generating system.
+
